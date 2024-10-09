@@ -14,3 +14,6 @@ En este desafío, se utiliza la biblioteca Gensim para generar embeddings de pal
 
 ### [Desafío Nº 3: Modelo de lenguaje con tokenización](DESAFIO_3/)
 En este desafío, se construye un modelo de predicción de texto utilizando modelos de lenguaje estadísticos y recurrentes. El objetivo es predecir la próxima palabra en una secuencia de texto dada una historia previa. En nuestro caso dado que estamos trabajando con el libro **Harry Potter y La piedra filosofal**, las palabras a predecir van a estar relacionadas con la estructura y el contexto de lenguaje del mismo.
+
+### [Desafío Nº 4: LSTM Bot QA](DESAFIO_4/)
+En este desafío, se desarrolla un bot de preguntas y respuestas (QA) utilizando un modelo encoder-decoder basado en LSTM. El bot es capaz de generar respuestas coherentes a preguntas simples en inglés. Para mejorar la representación semántica de las palabras, se utilizan embeddings de FastText. A lo largo del entrenamiento, se emplean técnicas de regularización como dropout para mitigar el sobreajuste, logrando un buen equilibrio entre calidad de las respuestas y generalización del modelo.
